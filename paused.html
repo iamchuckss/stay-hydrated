@@ -1,0 +1,32 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+  <head>
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
+     -->
+     <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+  <body>
+    <div id="container">
+      <h1 id="extensionTitle">Stayhydrated</h1>
+      </div>
+      <div class="description">
+      	<p>Time until next water break:</p>
+      </div>
+      <div id="current-state">
+      	<h2 id="current-time"></h2>
+	  </div>
+    </div>
+    <script type="text/javascript" src="popup.js"></script>
+    <script type="text/javascript" src="moment.js"></script>
+  </body>
+</html> 
+
