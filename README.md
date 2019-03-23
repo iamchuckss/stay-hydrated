@@ -10,8 +10,8 @@ StayHydrated is a simple chrome extension that reminds the user to take a sip of
 
 ## Screenshots
 
-<img src="screenshots/stayhydrated-popup" alt="" width="250">
-<img src="screenshots/stayhydrated-notification" alt="" width="350">
+<img src="screenshots/stayhydrated-popup.png" alt="" width="250">
+<img src="screenshots/stayhydrated-notification.png" alt="" width="350">
 
 ## License
 
