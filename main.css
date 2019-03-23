@@ -32,6 +32,13 @@ body {
 	font-weight: 200;
 }
 
+.heading i {
+	color: #7F7F7F;
+	/*margin-left: 27%;*/
+	font-size: 18px;
+	margin: 0 3% 0 auto;
+}
+
 .main {
 	display: grid;
 	width: 100%;
